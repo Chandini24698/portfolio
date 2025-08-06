@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Chandini24698/static/css/main.527ff6f7.css",
+    "main.js": "/Chandini24698/static/js/main.56861e19.js",
+    "index.html": "/Chandini24698/index.html",
+    "main.527ff6f7.css.map": "/Chandini24698/static/css/main.527ff6f7.css.map",
+    "main.56861e19.js.map": "/Chandini24698/static/js/main.56861e19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.527ff6f7.css",
+    "static/js/main.56861e19.js"
+  ]
+}

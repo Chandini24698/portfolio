@@ -5,14 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+<img src="/images/profile.jpg" alt="Chandini Battula" className="profile" />
       <header>
-        <img
-          src="/images/profile.jpg"  // Make sure the image is in public/images folder
-          alt="Chandini Battula"
-          className="profile"
-          style={{ borderRadius: "50%", width: "150px", height: "150px", display: "block", margin: "auto" }}
-        />
-        <h1 style={{ textAlign: "center", marginTop: "10px" }}>Chandini Battula</h1>
+                <h1 style={{ textAlign: "center", marginTop: "10px" }}>Chandini Battula</h1>
         <p style={{ textAlign: "center" }}>QA Engineer | Python & Selenium | IT Student at TU Clausthal</p>
       </header>
 

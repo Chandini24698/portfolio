@@ -5,7 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-<img src="/images/profile.jpg" alt="Chandini Battula" className="profile" />
+<img src={`${process.env.PUBLIC_URL}/images/profile.jpg`} alt="Chandini Battula" className="profile" />
+
+
       <header>
                 <h1 style={{ textAlign: "center", marginTop: "10px" }}>Chandini Battula</h1>
         <p style={{ textAlign: "center" }}>QA Engineer | Python & Selenium | IT Student at TU Clausthal</p>
@@ -28,22 +30,46 @@ function App() {
       </section>
 
       <section>
-        <h2>Skills</h2>
-        <ul>
-          <li><strong>Programming & Automation:</strong> Python, Selenium, Pytest, UiPath, VBA, Automation Anywhere</li>
-          <li><strong>Data Analysis & Visualization:</strong> SQL, Power BI</li>
-          <li><strong>DevOps & Tools:</strong> Azure DevOps, Git</li>
-          <li><strong>Testing & QA:</strong> Manual Testing, Test Case Design, Bug Tracking</li>
-        </ul>
-      </section>
+  <h2>Tech Stack</h2>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" />
+    <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+    <img src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white" />
+  </p>
+</section>
+
 
       <section>
-        <h2>Projects</h2>
-        <ul>
-          <li><strong>Selenium Test Framework</strong> – Automated web tests with Pytest and Page Object Model.</li>
-          <li><strong>Data Dashboard</strong> – Visualized insights using Power BI and Excel.</li>
-        </ul>
-      </section>
+  <h2>Projects</h2>
+  <ul>
+    <li>
+      <strong>Selenium Test Framework</strong> – Automated web tests with Pytest and Page Object Model.  
+      👉 <a href="https://github.com/Chandini24698/selenium-framework" target="_blank">GitHub Repo</a>
+    </li>
+    <li>
+      <strong>Data Dashboard</strong> – Visualized insights using Power BI and Excel.  
+      👉 <a href="https://github.com/Chandini24698/data-dashboard" target="_blank">GitHub Repo</a>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Key Achievements</h2>
+  <ul>
+    <li>Reduced test execution time by 30% with automated regression suite using Pytest.</li>
+    <li>Built Power BI dashboards to track application defects over time.</li>
+    <li>Improved test coverage from 60% to 90% by redesigning test cases.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Testimonials</h2>
+  <blockquote>
+    "Chandini was an exceptional QA engineer in our team – always proactive and focused on quality."  
+    <br />– Former Manager, HCL Technologies
+  </blockquote>
+</section>
 
       <section>
         <h2>Contact</h2>
